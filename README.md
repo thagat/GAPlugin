@@ -20,6 +20,12 @@ simply execute plugman as follows;
 For additional info, take a look at the [Plugman Documentation](https://github.com/apache/cordova-plugman/blob/master/README.md)
 
 ## Usage
+
+Add the GAPlugin.js script to your index.html file:
+
+    <script src="GAPlugin.js"></script> 
+    
+    
 The plugin creates the object `window.plugins.gaPlugin
 
 After onDeviceReady, create a local var and startup the plugin like so;
